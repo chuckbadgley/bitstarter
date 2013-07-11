@@ -1,5 +1,5 @@
 var express = require('express');
-var fs = require("fs);
+var fs = require('fs');
 
 var buff = new Buffer(fs.readFileSync('index.html'));
 
